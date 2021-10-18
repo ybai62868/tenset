@@ -84,6 +84,7 @@ def get_workload_embedding(workload_key):
     for i, tag in enumerate(tags):
         if tag in dag_str:
             vec[i] = 1
+    print("original vector:", vec)
     return vec
 
 

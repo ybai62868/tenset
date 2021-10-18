@@ -36,7 +36,7 @@ import subprocess
 # Current version
 # We use the version of the incoming release for code
 # that is under development
-__version__ = "0.8.dev0"
+__version__ = "0.8.dev0_yangbai_cost_model"
 
 # Most recent tag, used for git describe validation
 # set this value to be the most recent release tag
